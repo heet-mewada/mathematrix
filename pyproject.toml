@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "mathematrix"
+version = "0.1.0"
+description = "Mathematics problem generator for grade 1 - undergraduate level problems covering all topics of mathematics within those grades"
+authors = ["heet-mewada <heetmewadapersonal@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
