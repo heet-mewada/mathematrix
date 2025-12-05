@@ -1,0 +1,19 @@
+MainMenu:
+  orientation: 'vertical'
+  Title:
+    text: "Mathematrix"
+    pos_hint:{'center_x':.5, 'center_y':.6 }
+    size_hint: .5,1
+    font_size: 50
+  BeginSelection:
+    text: "Start"
+    size_hint: .4,.2
+    pos_hint:{'center_x':.5, 'center_y':.4}
+    font_size: 50
+  Quit:
+    text: "Quit"
+    size_hint: .4,.2
+    pos_hint:{'center_x':.5, 'center_y':.2}
+    font_size: 50
+    on_press: app.close_app()
+
