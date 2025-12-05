@@ -1,0 +1,15 @@
+<TestLayout>:
+  orientation: 'vertical'
+  Question:
+    id: question_label
+    text: f"Not Generated"
+  Answer:
+    id: answer_text
+    hint_text: "Answer Here"
+  GeneratingButton:
+    text: "Generate"
+    on_press: app.root.update_label()
+  SubmitButton:
+    text:"Submit"
+    on_press: app.root.check_answer(num1 = root.number1,num2 = root.number2) 
+
